@@ -9,5 +9,5 @@ patchesJson6902:
     group: networking.k8s.io
     version: v1
     kind: Ingress
-    name: guestbook-ui
+    name: todo-ui
   path: ingress-patches.yaml

@@ -7,7 +7,7 @@ spec:
     service:
       name: todo-ui
       port:
-        number: 80
+        number: 8082
   rules:
   - host: localhost
     http:
@@ -16,6 +16,6 @@ spec:
           service:
             name: todo-ui
             port:
-              number: 80
+              number: 8082
         path: /
         pathType: Exact

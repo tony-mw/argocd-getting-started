@@ -1,0 +1,3 @@
+- op: replace
+  path: /spec/rules/0/host
+  value: guestbook-98.53.187.159.sslip.io
